@@ -7,7 +7,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-#define NTP_SERVER "pool.ntp.org"
+#define NTP_SERVER "205.233.73.201"
 #define NTP_PORT 123
 #define NTP_PACKET_SIZE 48
 #define NTP_TIMESTAMP_DELTA 2208988800ull

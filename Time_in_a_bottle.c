@@ -74,7 +74,7 @@ int main() {
     printf("Local time: %s", asctime(local_time));
 
     // Calculate and print the time difference
-    double time_diff = abs(difftime(ntp_time, current_time));
+    double time_diff = difftime(current_time, ntp_time);
     printf("Time difference: %.2f seconds\n", time_diff);
 
     return 0;
